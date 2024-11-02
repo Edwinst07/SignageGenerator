@@ -1,0 +1,99 @@
+.TableNormal{
+	margin-left: 5.5pt;
+ 	border-collapse:collapse;
+ 	border:none;
+}
+
+tr{
+	height:185.55pt;
+}
+
+.td-top1{
+	width:151.65pt;
+	border:solid black 1.0pt;
+  	padding:0cm 0cm 0cm 0cm;
+  	height:185.55pt;
+}
+
+.td-top2{
+	width:138.25pt;
+	border:solid black 1.0pt;
+  	border-left:none;
+  	padding:0cm 0cm 0cm 0cm;
+  	height:185.55pt;
+}
+
+.td-top3{
+	width:249.9pt;
+	border:solid black 1.0pt;
+  	border-left:none;
+  	padding:0cm 0cm 0cm 0cm;
+  	height:185.55pt
+}
+
+p, .TableParagraph{
+	margin-top:12.25pt;
+	margin-right:5.9pt;
+  	margin-bottom:0cm;
+  	margin-left:6.35pt;
+  	margin-bottom:.0001pt;
+  	text-indent:53.4pt
+}
+
+p, .TableParagraph, span{
+
+	font-size:	18.0pt;
+  	font-family:"Times New Roman",serif;
+}
+
+.tr2{
+	height:18.5pt;
+}
+
+.td-top4{
+	width:289.9pt;
+	border:solid black 1.0pt;
+  	border-top:none;
+  	padding:0cm 0cm 0cm 0cm;
+  	height:18.5pt;
+}
+
+.tr2, .td-top4, .parraf{
+	margin-top: .1pt;
+	margin-right: 0cm;
+	margin-bottom: 0cm;
+  	margin-left:10.55pt;
+  	margin-bottom:.0001pt;
+  	line-height:17.35pt;
+} 
+
+.td-top5{
+	width:249.9pt;
+	border-top:none;
+  	border-left:none;
+  	border-bottom:solid black 1.0pt;
+  	border-right:solid black 1.0pt;
+  	padding:0cm 0cm 0cm 0cm;
+  	height:18.5pt;
+}
+
+.tr3{
+	height:110.7pt;
+}
+
+.td-top6{
+	width:289.9pt;
+	border:solid black 1.0pt;
+  	border-top:none;
+  	padding:0cm 0cm 0cm 0cm;
+  	height:110.7pt;
+}
+
+.tr3, .td-top6, .parraf2{
+	margin-top:25.35pt;
+	margin-right:0cm;
+  	margin-bottom:0cm;
+  	margin-left:76.35pt;
+  	margin-bottom:.0001pt;
+  	text-indent:-4.0pt;
+}
