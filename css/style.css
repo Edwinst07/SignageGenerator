@@ -1,3 +1,7 @@
+*{
+	font-family:"Trebuchet MS",serif;
+}
+
 .TableNormal{
 	margin-left: 5.5pt;
  	border-collapse:collapse;
@@ -37,13 +41,13 @@ p, .TableParagraph{
   	margin-bottom:0cm;
   	margin-left:6.35pt;
   	margin-bottom:.0001pt;
-  	text-indent:53.4pt
+  	/*text-indent:53.4pt*/
 }
 
 p, .TableParagraph, span{
 
 	font-size:	18.0pt;
-  	font-family:"Times New Roman",serif;
+  	font-family:"Trebuchet MS",serif;
 }
 
 .tr2{
@@ -95,5 +99,5 @@ p, .TableParagraph, span{
   	margin-bottom:0cm;
   	margin-left:76.35pt;
   	margin-bottom:.0001pt;
-  	text-indent:-4.0pt;
+  	/*text-indent:-4.0pt;*/
 }

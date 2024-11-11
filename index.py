@@ -8,10 +8,8 @@ enterprise = "ISA INTERCONEXION ELECTRICA S.A. E.S.P."
 addressGathering = "Sede ANCON - Calle 84 Sur No. 40 - 61 (Km1 variante a Caldas) Sabaneta, Antioquia"
 contact = "Sindy Lorena Florez "
 phone = "+57 3112431683 "
-dateGathering = f"Empresa entrega: {enterprise} Dirección: {addressGathering} <br>Contacto: {contact} <br>Phone: {phone}"
 enterpriseDelivery ="BTR Colombia SAS "
 addressDelivery = " Autopista Medellin Km. 3.5 Costado Sur modulo 3 Bodega 26 Terminal Terrestre de Carga Cota, Cundinamarca, Colombia"
-dateDelivery = f"Empresa entrega: {enterpriseDelivery} Dirección: {addressDelivery}"
 serial = "6CM94715BH (ISAH5675M)"
 
 context = {'block':block, 'numOrder':numOrder, 'enterprise':enterprise,'addressGathering':addressGathering, 

@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Plantilla Rotulo</title>
 </head>
+{% for index in range(cantPages) %}
 <body>
 
 	<div class="WordSection1">
@@ -95,16 +96,17 @@
 			<tr class="tr3">
 				<td class="td-top6" colspan=2 valign=top>
 					<p class="TableParagraph parraf2">
-  						<span style='font-size:26.0pt;'>
-  							{{serial}}
-  						</span>
+  							<span style='font-size:26.0pt;'>
+  								{{serials1[index]}}
+  							</span>
   					</p>
 				</td>
 				
 			</tr>
 		</table>
+		<br>
 		<hr>
-		
+		<br>
 		<table class="TableNormal" border=2 cellspacing=0 cellpadding=0>
 			<tr>
 				<td class="td-top1" width=210 valign=top>
@@ -131,7 +133,7 @@
 				</td>
 
 				<td class="td-top2" width=210 valign=top>
-					<p class="TableParagraph">
+					<p class="TableParagraph" >
 						<span>
 							{{numOrder}}
 						</span>
@@ -191,9 +193,9 @@
 			<tr class="tr3">
 				<td class="td-top6" colspan=2 valign=top>
 					<p class="TableParagraph parraf2">
-  						<span style='font-size:26.0pt;'>
-  							{{serial}}
-  						</span>
+  							<span style='font-size:26.0pt;'>
+  								{{serials2[index]}}
+  							</span>
   					</p>
 				</td>
 				
@@ -203,4 +205,5 @@
 	</div>
 
 </body>
+{% endfor %}
 </html>
