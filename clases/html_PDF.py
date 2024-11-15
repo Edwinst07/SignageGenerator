@@ -32,10 +32,7 @@ class ConvertPDF():
         self.output_text = self.template.render(self.context)
 
         self.config = pdfkit.configuration(wkhtmltopdf=r'C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe')
-        self.output_pdf = 'pdf_generated.pdf'
-        pdf =pdfkit.from_string(self.output_text,self.output_pdf, configuration=self.config, css='css/style.css')
-        #print("SERIES 1")
-        #print(self._series1)
-        #print("SERIES 2")
-        #print(self._series2)
+        self.output_pdf = f'Rotulos_generated_pdf_Bloque_{self._block}.pdf'
+        pdfkit.from_string(self.output_text,self.output_pdf, css="css/style.css", configuration=self.config, options={"enable-local-file-access": ""})
+
         

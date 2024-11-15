@@ -13,11 +13,13 @@ class Series:
         for serie in self.series:
             if (self.series.tolist().index(serie)+1) % 2 == 1:
                 self.series2.append(str(serie))
+        self.rFile.close()
         return self.series2
 
     def arraySeries2(self):
         for serie in self.series:
             if (self.series.tolist().index(serie)+1) % 2 == 0:
                 self.series1.append(str(serie))
+        self.rFile.close()
         return self.series1
     
